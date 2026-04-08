@@ -137,7 +137,7 @@ init_db()
 HTML = """<html>
 <head><title>Lucky Draw Admin</title></head>
 <body>
-<h2>Lucky Draw Admin</h2>
+<h2>Lucky Draw Admin Page, to select or check the Lucky Winner</h2>
 
 {% if not_logged %}
 <form method="POST" action="/login">
